@@ -12,6 +12,7 @@ function partialApply(fn, ...oldArgs) {
 
 /**
  * Funciones con los mismos parametros
+ * Ejemplo de https://javascript.info/currying-partials
  */
 function log(date, importance, message) {
   console.log(
