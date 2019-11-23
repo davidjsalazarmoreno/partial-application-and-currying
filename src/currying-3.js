@@ -25,7 +25,6 @@ function partialApply(fn, ...oldArgs) {
   }
 }
 
-
 // Aplicación parcial
 const greetingInSpanish = partialApply(greet, 'spanish')
 const greetingInEnglish = partialApply(greet, 'english')
